@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+body {
+	background:	#E9967A;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+	border:0;
+	background:#dedede;
+	height: 1px;
+}
+
+header {
+	text-align: center;
+	color: #232323;
+}	
+
+header .judul{
+	font-size: 17pt;
+}
+
+header .deskripsi{
+	font-size: 11pt;
+}
+
+.wrap {
+	width: 700px;
+	margin:25px auto;
+}
+
+nav .menu ul {
+	overflow: hidden;
+	color: #fff;
+	list-style: none;
+	float: left;
+	padding: 0;
+	width: 650px;
+	margin:0 0 0;
+	background: #F4A460;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(024,204,204,0,55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0,55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0,55);
+}
+
+nav .menu ul li {
+	margin:0;
+	float: left;
+}
+
+nav ul li a:hover {
+	color: #FF5733;
+}
+
+nav ul {
+	margin:auto;
+    text-align: center;
+    background:#8B0000;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;width: 100%;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .menu ul a {
+	padding: 25px;
+	display: block;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0,5s ease;
+	text-decoration: none;
+}
+
+nav .menu ul a:hover {
+	text-decoration: underline;
+	background:#16a085;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+	.header {
+		position:inherit;
+	}
+}
+.wrap {
+	width: 70%;
+	margin:25px auto;
+}
+
+
+nav .menu ul {
+	width: 100%;
+}
+
+nav .menu ul {
+	float: inherit;
+}
+
+nav .menu ul li {
+	float: inherit;
+	margin:0;
+}
+
+nav .menu ul a {
+	padding: 15px;
+	font-size: 16px;
+	border-top: 1px solid #1abf9f;
+	border-bottom: 1px solid #16a085;
+}
+
+.banner {
+    background-color:
+	padding: 150px 0;
+}
+section {
+	padding: 50px 0;
+}
+.banner img {
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #ddd;
+	margin-bottom: 10px;
+}
+
+div h4 p {
+	text-align: justify;
+	padding: 8px;
+}
+
+img {
+	height: 400px;
+	width: 700px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+	background-color: #333;
+	padding: 30px;
+	text-align: center;
+}
+footer small {
+	color: #fff;
+}
+html {
+	scroll-behavior: smooth;
+}		
+
+@media screen and (max-width: 460px) {
+	nav .menu ul a {
+		padding: 15px;
+		font-size: 14px;
+	}
+	
+}
+
+
